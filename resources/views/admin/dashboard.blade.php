@@ -9,7 +9,7 @@
                     <i class="fas fa-users mr-2"></i> Manage Users
                 </a>
                 <a href="{{ route('admin.users.create') }}" class="bg-fcrit-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-fcrit-700 transition">
-                    <i class="fas fa-user-plus mr-2"></i> Create Faculty
+                    <i class="fas fa-user-plus mr-2"></i> Create User
                 </a>
             </div>
         </div>

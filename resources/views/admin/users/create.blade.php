@@ -30,10 +30,6 @@
                                     <input type="radio" name="role" value="student" x-model="role" class="text-fcrit-600 focus:ring-fcrit-500 border-gray-300">
                                     <span class="ml-2 text-gray-700">Student</span>
                                 </label>
-                                <label class="flex items-center">
-                                    <input type="radio" name="role" value="admin" x-model="role" class="text-fcrit-600 focus:ring-fcrit-500 border-gray-300">
-                                    <span class="ml-2 text-gray-700">Admin</span>
-                                </label>
                             </div>
                             <x-input-error :messages="$errors->get('role')" class="mt-2" />
                         </div>
